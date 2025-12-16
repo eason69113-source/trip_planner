@@ -36,18 +36,17 @@
 
 ## 项目结构
 
-- .
-- ├── trip_planner              
-- │   ├── trip_planner_agent.py   # 多智能体核心逻辑
-- │   ├── schemas.py              # Pydantic 数据格式定义
-- │   ├── prompts.py              # 各 Agent 的系统提示词
-- │   ├── index.html              # 前端页面
-- │   └── main.py                 # FastAPI 主入口
-- ├── my_llm.py                   # LLM 配置
-- ├── env_utils.py                # 环境变量加载工具
-- ├── requirements.txt            # 依赖列表
-- ├── .env                        # 环境变量模板（需要自行填写！！）
-- └── README.md                   # 项目说明文档
+* `trip_planner/` (目录)
+    * `trip_planner_agent.py`: **多智能体核心逻辑**。
+    * `schemas.py`: **Pydantic** 数据格式定义。
+    * `prompts.py`: 各 **Agent** 的系统提示词配置。
+    * `index.html`: 前端用户界面。
+    * `main.py`: **FastAPI** 主入口。
+* `my_llm.py`: LLM (大型语言模型) 配置。
+* `env_utils.py`: 环境变量加载工具。
+* `requirements.txt`: 依赖列表。
+* `.env`: 环境变量模板 (**请自行填写！**)。
+* `README.md`: 项目说明文档。
 
 ## 快速开始
 
