@@ -36,13 +36,14 @@
 
 ## 项目结构
 .
-├── trip_planner              # FastAPI 主入口
-  ├──trip_planner_agent.py     # 多智能体核心逻辑
-  ├── schemas.py               # Pydantic 数据模型
-  ├── prompts.py               # 各 Agent 系统提示词
-  ├── index.html               # 前端页面
-  ├── main.py                  # FastAPI 主入口
-├── my_llm.py                # LLM 配置
-├── env_utils.py             # 环境变量加载
-├── requirements.txt         # requirements.txt（依赖列表）
-└── .env                     # 环境变量文件（需自行创建）
+├── trip_planner              # FastAPI 主入口（核心启动文件）
+│   ├── trip_planner_agent.py # 多智能体核心逻辑（景点、天气、酒店、规划）
+│   ├── schemas.py            # Pydantic 数据模型定义
+│   ├── prompts.py            # 各 Agent 的系统提示词
+│   ├── index.html            # 前端页面（Tailwind CSS 美化）
+│   └── main.py               # FastAPI 主入口
+├── my_llm.py                 # LLM 配置（DeepSeek 等模型调用）
+├── env_utils.py              # 环境变量加载工具
+├── requirements.txt          # 依赖列表（建议将 re.txt 重命名为此）
+├── .env.example              # 环境变量模板（请复制为 .env 填写密钥）
+└── README.md                 # 项目说明文档
