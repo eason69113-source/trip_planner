@@ -36,18 +36,18 @@
 
 ## 项目结构
 
-.
-├── trip_planner/
-│   ├── trip_planner_agent.py
-│   ├── schemas.py
-│   ├── prompts.py
-│   ├── index.html
-│   └── main.py
-├── my_llm.py
-├── env_utils.py
-├── requirements.txt
-├── .env
-└── README.md
+- .
+- ├── trip_planner/
+- │   ├── trip_planner_agent.py
+- │   ├── schemas.py
+- │   ├── prompts.py
+- │   ├── index.html
+- │   └── main.py
+- ├── my_llm.py
+- ├── env_utils.py
+- ├── requirements.txt
+- ├── .env
+- └── README.md
 
 | 文件/目录 | 功能描述 |
 | :--- | :--- |
