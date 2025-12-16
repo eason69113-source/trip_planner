@@ -36,11 +36,12 @@
 
 ## 项目结构
 .
-├── trip_planner                  # FastAPI 主入口
-  ├──trip_planner_agent.py    # 多智能体核心逻辑
+├── trip_planner              # FastAPI 主入口
+  ├──trip_planner_agent.py     # 多智能体核心逻辑
   ├── schemas.py               # Pydantic 数据模型
   ├── prompts.py               # 各 Agent 系统提示词
   ├── index.html               # 前端页面
+  ├── main.py                  # FastAPI 主入口
 ├── my_llm.py                # LLM 配置
 ├── env_utils.py             # 环境变量加载
 ├── requirements.txt         # requirements.txt（依赖列表）
